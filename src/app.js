@@ -2,10 +2,21 @@
 import "bootstrap";
 import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
+let quien = ["The dog", "La señorita eMe", "His turtle", "My bird"];
+let que = ["eat", "pissed", "crushed", "broked"];
+let lacosa = "my homework";
+let donde = [
+  "before the class",
+  "right in time",
+  "when I finished",
+  "during my lunch",
+  "while I was praying"
+];
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+  var elquien = quien[Math.floor(Math.random() * 4)];
+  var elque = que[Math.floor(Math.random() * 4)];
+  var eldonde = donde[Math.floor(Math.random() * 5)];
+  var excusa = elquien + " " + elque + " " + lacosa + " " + eldonde;
+  document.getElementById("excuse").innerHTML = excusa;
 };
