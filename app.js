@@ -10,9 +10,9 @@ let donde = [
 ];
 window.onload = function() {
   //write your code here
-  var elquien = quien[Math.floor(Math.random() * 4)];
-  var elque = que[Math.floor(Math.random() * 4)];
-  var eldonde = donde[Math.floor(Math.random() * 5)];
-  var excusa = elquien + " " + elque + " " + lacosa + " " + eldonde;
+  let elquien = quien[Math.floor(Math.random() * 4)];
+  let elque = que[Math.floor(Math.random() * 4)];
+  let eldonde = donde[Math.floor(Math.random() * 5)];
+  let excusa = elquien + " " + elque + " " + lacosa + " " + eldonde;
   document.getElementById("excuse").innerHTML = excusa;
 };
