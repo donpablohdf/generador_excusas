@@ -1,7 +1,3 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
 let quien = ["The dog", "La señorita eMe", "His turtle", "My bird"];
 let que = ["eat", "pissed", "crushed", "broked"];
 let lacosa = "my homework";
