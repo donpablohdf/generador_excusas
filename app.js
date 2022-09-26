@@ -1,4 +1,4 @@
-let quien = ["The dog", "La señorita eMe", "His turtle", "My bird"];
+let quien = ["The dog", "My duck", "His turtle", "My bird"];
 let que = ["eat", "pissed", "crushed", "broked"];
 let lacosa = "my homework";
 let donde = [
